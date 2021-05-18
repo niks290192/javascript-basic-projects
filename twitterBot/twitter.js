@@ -15,8 +15,7 @@ const tweet = async (status) => {
   try {
     const myTweet =
       `#Checkout this #Javascript #basic #projects in #JS #HTML #CSS #Repo on @github https://bit.ly/3eRENGo 
-        Follow: @NiKs290192 on Github and Twitter for more updates :).` ;
-
+        #Follow: @NiKs290192 on Github, Twitter, Instagram for more updates :)` ;
     await tweet(myTweet);
   } catch (err) {
     console.error(err);
